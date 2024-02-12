@@ -13,3 +13,8 @@ body {
     background-color: var(--black);
     color: var(--white);
 }
+
+.centrar {
+    text-align: justify;
+}
+
