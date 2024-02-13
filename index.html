@@ -31,16 +31,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto me-5">
                     <li class="nav-item">
-                        <a class="nav-link active mx-3" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active mx-3" aria-current="page" href="#carouselExampleControls">Inicio</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a class="nav-link active mx-3" href="#section-quienesomos">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Quienes somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Destacados</a>
+                        <a class="nav-link active mx-3" href="#section-destacados">Destacados</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active mx-3" href="#">Contacto</a>
+                        <a class="nav-link active mx-3" href="#section-contacto">Contacto</a>
                     </li>
                 </ul>
             </div>        
@@ -71,10 +71,10 @@
           </div>
     </main>
     <!-- AQUI ESTARAN LA SECCION DE QUIENES SOMOS -->
-    <section class="somos pt-5 text-center d-none d-md-block">
+    <section class="somos pt-5 pb-5 text-center d-none d-md-block" id="section-quienesomos">
       <h3>¿QUIENES SOMOS?</h3>
       <hr>
-      <div class="container pt-4 pb-4">
+      <div class="container pt-5 pb-5">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="bg-info">
@@ -142,7 +142,7 @@
       </div>
     </section>
 <!-- AQUI COMIENZA MI FORMULARIO -->
-    <section class="container my-2 text-white container mt-5">
+    <section class="container my-2 text-white container mt-5" id="section-contacto">
       <h3 class="text-center pt-5">CONTACTO</h3>
       <hr>
       <form class="formulario">
@@ -154,12 +154,12 @@
           <label for="formGroupExampleInput2" class="form-label">Asunto</label>
           <input type="text" class="form-control" id="formGroupExampleInput2" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe el asunto" placeholder="">
         </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe el mensaje" rows="6"></textarea>
-          </div>
-          <button type="submit" class="btn bg-info text-white px-4">Enviar</button>
-      </form>  
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe el mensaje" rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn bg-info text-white px-4 " id="enviarMensaje">Enviar</button>
+      </form>
     </section>
 
     <!-- AQUI ESTA MI FOOTER -->
@@ -175,16 +175,7 @@
           <a href="https://www.facebook.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-facebook-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"></i></a>
         </div>
       </section>
-
     </footer>
-
-
-
-
-
-
-
-
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
